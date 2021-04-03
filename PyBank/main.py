@@ -55,7 +55,7 @@ print(f"Greatest Increase in Profits: {Max_change_date} (${Max_change})")
 print(f"Greatest Decrease in Profits: {Min_change_date} (${Min_change})")
 
 #Write to txt file
-output_file = open("Output_summary.txt", "w")
+output_file = open("Financial_analysis.txt", "w")
 output_file.write("Financial Analysis\n")
 output_file.write("---------------------------------\n")
 output_file.write(f"Total Months: {total_months}\n")
